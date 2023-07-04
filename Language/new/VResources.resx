@@ -190,7 +190,7 @@
     <value>MOTILITY GRADES: PROG. &lt;PR&gt;</value>
   </data>
   <data name="NONPROG" xml:space="preserve">
-    <value>NONPROG ..&lt;NP&gt;</value>
+    <value>NONPROG. &lt;NP&gt;</value>
   </data>
   <data name="IMMOT" xml:space="preserve">
     <value>IMMOT. &lt;IM&gt;</value>
@@ -448,7 +448,7 @@
     <value>Select Port:</value>
   </data>
   <data name="PRINTER_NAME" xml:space="preserve">
-    <value>Printer Name</value>
+    <value>Printer Name:</value>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Language</value>
@@ -556,7 +556,7 @@
     <value>LIQUEFACTION</value>
   </data>
   <data name="REF_BY_DR" xml:space="preserve">
-    <value>REFERRED BY DR.</value>
+    <value>REFERRED BY DR.:</value>
   </data>
   <data name="REF_BY_DR2" xml:space="preserve">
     <value>REFERRED BY DOCTOR 2</value>
@@ -601,7 +601,7 @@
     <value>Title</value>
   </data>
   <data name="Sub_Title" xml:space="preserve">
-    <value>Subtitle</value>
+    <value>Sub Title</value>
   </data>
   <data name="ADD_SIGNATURE" xml:space="preserve">
     <value>Add Signature</value>
@@ -694,13 +694,13 @@
     <value>settings error</value>
   </data>
   <data name="Enter_value" xml:space="preserve">
-    <value>Enter Value</value>
+    <value>enter value</value>
   </data>
   <data name="Please_enter_title" xml:space="preserve">
     <value>Please enter the title of the report</value>
   </data>
   <data name="You_choose_old_Record" xml:space="preserve">
-    <value>You chose an old version of the archive file. To start a new archive, press “Cancel” and change the CSV file name. To convert it for use in this version, press “OK”. A backup of the old archive will be kept.</value>
+    <value>You have chosen an older archive file.Please choose a new file, otherwise all your old tests will be  erased.Would you like to continue?</value>
   </data>
   <data name="csv_file_not_open" xml:space="preserve">
     <value>Make sure that the csv file is not open</value>
@@ -709,7 +709,7 @@
     <value>Settings window is already open</value>
   </data>
   <data name="Select_printer" xml:space="preserve">
-    <value>Select printer</value>
+    <value>select printer</value>
   </data>
   <data name="Referred_dr" xml:space="preserve">
     <value>REFERRED BY DR</value>
@@ -742,7 +742,7 @@
     <value>ANALYSING CHARTS</value>
   </data>
   <data name="Tot_Prg_Mot" xml:space="preserve">
-    <value>PROGRESSIVE \n MOTILITY</value>
+    <value>TOTAL PROGRESSIVE \n MOTILITY</value>
   </data>
   <data name="Prg_Mot" xml:space="preserve">
     <value>NON PROGRESSIVE \n MOTILITY</value>
@@ -761,101 +761,5 @@
   </data>
   <data name="NO_SMI_CHART" xml:space="preserve">
     <value>SMI CHART NOT AVAILABLE</value>
-  </data>
-  <data name="AVRG" xml:space="preserve">
-    <value>AVG.</value>
-  </data>
-  <data name="AVG_HEAD" xml:space="preserve">
-    <value>SEMEN ANALYSIS AVERAGE REPORT</value>
-  </data>
-  <data name="AVG_SUB_HEAD" xml:space="preserve">
-    <value>By the Automated Semen Quality Analyzer</value>
-  </data>
-  <data name="Home_Tot_mot" xml:space="preserve">
-    <value>TOTAL MOTILITY (%)</value>
-  </data>
-  <data name="Home_Prog_mot" xml:space="preserve">
-    <value>PROG. MOTILITY (%)</value>
-  </data>
-  <data name="Home_Nonprog_mot" xml:space="preserve">
-    <value>NONPROG.MOT.(%)</value>
-  </data>
-  <data name="Home_Immot" xml:space="preserve">
-    <value>IMMOTILITY (%)</value>
-  </data>
-  <data name="Home_morph" xml:space="preserve">
-    <value>MORPH.NORM.FORM.(%)</value>
-  </data>
-  <data name="Home_morph_sperm" xml:space="preserve">
-    <value>MORPH.NORM.SPERM (M)</value>
-  </data>
-  <data name="Archive_tooltip" xml:space="preserve">
-    <value>You can average two tests that were taken of the same sample within 10 min.{0} Select two matching tests by “ctrl” + “click” to enable the  button and open{0} the results screen for the average report.</value>
-  </data>
-  <data name="Arc_Average" xml:space="preserve">
-    <value>Average</value>
-  </data>
-  <data name="Avg_Result_info" xml:space="preserve">
-    <value>AVERAGE RESULT INFORMATION</value>
-  </data>
-  <data name="COMMENTS" xml:space="preserve">
-    <value>COMMENTS</value>
-  </data>
-  <data name="Avg_report" xml:space="preserve">
-    <value>Average Report</value>
-  </data>
-  <data name="Home_FSC" xml:space="preserve">
-    <value>FSC (M/ml)</value>
-  </data>
-  <data name="Arc_same_test" xml:space="preserve">
-    <value>You can average two tests that were taken of the same sample within 10 min</value>
-  </data>
-  <data name="Arc_err" xml:space="preserve">
-    <value>Archive Error</value>
-  </data>
-  <data name="Could_not_open" xml:space="preserve">
-    <value>Could not open archive</value>
-  </data>
-  <data name="RAPID_M" xml:space="preserve">
-    <value>RAPID</value>
-  </data>
-  <data name="SLOW_M" xml:space="preserve">
-    <value>SLOW</value>
-  </data>
-  <data name="PMSC_SLOW_L" xml:space="preserve">
-    <value>PMSC SLOW</value>
-  </data>
-  <data name="PMSC_RAPID_L" xml:space="preserve">
-    <value>PMSC RAPID</value>
-  </data>
-  <data name="RAPID_PROGERSIVE_WU" xml:space="preserve">
-    <value>RAPIDLY PROG.MOTILITY(%)</value>
-  </data>
-  <data name="SLOW_PROGERSIVE_WU" xml:space="preserve">
-    <value>SLOWLY PROG.MOTILITY(%)</value>
-  </data>
-  <data name="RAPID_PMSC_WU" xml:space="preserve">
-    <value>RAPID PMSC (M/ml)</value>
-  </data>
-  <data name="SLOW_PMSC_WU" xml:space="preserve">
-    <value>SLOW PMSC (M/ml)</value>
-  </data>
-  <data name="WHO_6_WU" xml:space="preserve">
-    <value>MORPH.NORM.FORMS &lt;WHO 6th&gt; (%)</value>
-  </data>
-  <data name="N_MORPH_REM" xml:space="preserve">
-    <value> &lt;WHO 6th&gt;</value>
-  </data>
-  <data name="CHECK_VER" xml:space="preserve">
-    <value>Version Miss Matched</value>
-  </data>
-  <data name="CWHO_6" xml:space="preserve">
-    <value>WHO 6TH</value>
-  </data>
-  <data name="CWHO_5" xml:space="preserve">
-    <value>WHO 5TH</value>
-  </data>
-  <data name="CRITERIA" xml:space="preserve">
-    <value>CRITERIA</value>
   </data>
 </root>

@@ -349,7 +349,7 @@
     <value>Exceldateifehler</value>
   </data>
   <data name="ACCESS_ERROR" xml:space="preserve">
-    <value>Kein Zugriff. Falls die Datei geöffnet ist, bitte schließen Sie sie und klicken Sie Wiederholen.</value>
+    <value>Kein Zugriff. Falls die Datei geöffnet ist, schließen Sie diese bitte und klicken Sie Wiederholen.</value>
   </data>
   <data name="IMPORT_FAILED" xml:space="preserve">
     <value>Import fehlgeschlagen</value>
@@ -448,7 +448,7 @@
     <value>Port auswählen:</value>
   </data>
   <data name="PRINTER_NAME" xml:space="preserve">
-    <value>Druckername:</value>
+    <value>Druckername</value>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Sprache</value>
@@ -538,9 +538,7 @@
     <value>Ergebisstreifen drucken</value>
   </data>
   <data name="PRINT_REPORT" xml:space="preserve">
-    <value>Druckbericht 
-Druckbericht
-Druckbericht</value>
+    <value>Druckbericht</value>
   </data>
   <data name="PAT_NAME" xml:space="preserve">
     <value>PATIENTENNAME</value>
@@ -645,7 +643,7 @@ Druckbericht</value>
     <value>ALTER</value>
   </data>
   <data name="REF_BY_DR" xml:space="preserve">
-    <value>VERWEIS AUF DR.:</value>
+    <value>VERWEIS AUF DR.</value>
   </data>
   <data name="SIGNATURE" xml:space="preserve">
     <value>Unterschrift</value>
@@ -686,6 +684,9 @@ Druckbericht</value>
   <data name="Archive_Window_Open" xml:space="preserve">
     <value>Archiv-Fenster bereits geöffnet</value>
   </data>
+  <data name="Could_not_open" xml:space="preserve">
+    <value>Archiv konnte nicht geöffnet werden</value>
+  </data>
   <data name="Archive_Empty" xml:space="preserve">
     <value>Archiv ist leer oder nicht vorhanden</value>
   </data>
@@ -705,7 +706,7 @@ Druckbericht</value>
     <value>Bitte geben Sie den Titel des Berichtes ein</value>
   </data>
   <data name="You_choose_old_Record" xml:space="preserve">
-    <value>Sie haben eine alte Version der Archivdatei gewählt.Bitte wählen Sie eine neue Datei, ansonsten werden all Ihre alten Tests gelöscht.Wollen Sie fortfahren?</value>
+    <value>Sie haben eine alte Version der Archivdatei gewählt. Um ein neues Archiv zu starten, drücken Sie "Abbrechen" und ändern Sie den CSV-Dateinamen. Um es für die Verwendung in dieser Version zu konvertieren, drücken Sie "Weiter". Ein Backup des alten Archivs wird aufbewahrt.</value>
   </data>
   <data name="csv_file_not_open" xml:space="preserve">
     <value>Stellen Sie sicher, dass die Csv-Datei nicht geöffnet ist</value>
@@ -744,10 +745,10 @@ Druckbericht</value>
     <value>ANALYSE DER GRAFIKEN</value>
   </data>
   <data name="Tot_Prg_Mot" xml:space="preserve">
-    <value>Gesamtheit progressive \n Motilität</value>
+    <value>PROGRESSIVE \n MOTILITÄT</value>
   </data>
   <data name="Prg_Mot" xml:space="preserve">
-    <value>Nicht progressive \n Motilität</value>
+    <value>NICHT PROGRESSIVE \n MOTILITÄT</value>
   </data>
   <data name="guideline_Med" xml:space="preserve">
     <value>Richtwert - durchschnittlich</value>
@@ -763,5 +764,56 @@ Druckbericht</value>
   </data>
   <data name="NO_SMI_CHART" xml:space="preserve">
     <value>SMI-GRAPH NICHT VERFÜGBAR</value>
+  </data>
+  <data name="Home_Tot_mot" xml:space="preserve">
+    <value>GESAMT-MOTILITÄT (%)</value>
+  </data>
+  <data name="Home_Prog_mot" xml:space="preserve">
+    <value>PROG. MOTILITÄT (%)</value>
+  </data>
+  <data name="Home_Nonprog_mot" xml:space="preserve">
+    <value>NICHT-PROG.MOT.(%)</value>
+  </data>
+  <data name="Home_Immot" xml:space="preserve">
+    <value>IMMOTILITÄT (%)</value>
+  </data>
+  <data name="Home_morph" xml:space="preserve">
+    <value>MORPH.NORM.FORM (%)</value>
+  </data>
+  <data name="Home_morph_sperm" xml:space="preserve">
+    <value>MORPH.NORM.SPERM.(M)</value>
+  </data>
+  <data name="Archive_tooltip" xml:space="preserve">
+    <value>Sie können den Mittelwert zweier Tests, welche innerhalb von 10 min von{0} derselben Probe gemacht wurden, berechnen. Wählen Sie zwei passende{0} Tests mit "Strg" + "Klick" um die Taste zu aktivieren und das Ergebnis-{0}Fenster für den Mittelwertsbericht zu öffnen.</value>
+  </data>
+  <data name="AVRG" xml:space="preserve">
+    <value>MW</value>
+  </data>
+  <data name="AVG_HEAD" xml:space="preserve">
+    <value>SPERMA ANALYSE MITTELWERTSBERICHT</value>
+  </data>
+  <data name="AVG_SUB_HEAD" xml:space="preserve">
+    <value>Durch den automatisierten Spermaqualitätsanalysator</value>
+  </data>
+  <data name="Arc_Average" xml:space="preserve">
+    <value>Mittelwert</value>
+  </data>
+  <data name="Home_FSC" xml:space="preserve">
+    <value>FSC (M/ml)</value>
+  </data>
+  <data name="Avg_Result_info" xml:space="preserve">
+    <value>INFORMATION ZUM DURCHSCHNITTLICHEN ERGEBNIS</value>
+  </data>
+  <data name="COMMENTS" xml:space="preserve">
+    <value>Kommentare</value>
+  </data>
+  <data name="Avg_report" xml:space="preserve">
+    <value>MITTELWERTSBERICHT</value>
+  </data>
+  <data name="Arc_same_test" xml:space="preserve">
+    <value>Sie können den Mittelwert zweier Tests, welche innerhalb von 10 min von derselben Probe gemacht wurden, berechnen.</value>
+  </data>
+  <data name="Arc_err" xml:space="preserve">
+    <value>Archivfehler</value>
   </data>
 </root>

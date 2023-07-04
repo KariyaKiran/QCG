@@ -130,13 +130,13 @@
     <value>Erreur de paramétrage</value>
   </data>
   <data name="Enter_value" xml:space="preserve">
-    <value>Entrer la valeur</value>
+    <value>Entrez la valeur</value>
   </data>
   <data name="Please_enter_title" xml:space="preserve">
     <value>Veuillez entrer le titre du rapport</value>
   </data>
   <data name="You_choose_old_Record" xml:space="preserve">
-    <value>Vous avez choisi un fichier d'archive ancien.  Veuillez choisir un nouveau fichier, sinon, tous vos tests précédants seront effacés.  Voulez-vous continuer?</value>
+    <value>Vous avez choisi une ancienne version du fichier d'archive.  Pour démarrer une nouvelle archive, cliquez  sur "Abandon" et changez le nom du fichier csv.  Pour le convertir afin d'être utilisé dans cette version, pressez "Continuer".  Une archive de l'ancien fichier sera sauvegardée.</value>
   </data>
   <data name="csv_file_not_open" xml:space="preserve">
     <value>Veuillez vous assurer que le fichier csv n'est pas ouvert</value>
@@ -172,13 +172,70 @@
     <value>Enterz</value>
   </data>
   <data name="No_Mot_Chart" xml:space="preserve">
-    <value>Le graphique de motilité n'est pas disponible</value>
+    <value>Graphe de mobilité non disponible</value>
   </data>
   <data name="Analysing_charts" xml:space="preserve">
-    <value>Graphe d'analyse</value>
+    <value>Graphes analytiques</value>
   </data>
   <data name="REF_BY_DR" xml:space="preserve">
-    <value />
+    <value>PRESCRIPT PAR.</value>
+  </data>
+  <data name="Tot_Prg_Mot" xml:space="preserve">
+    <value>MOBILITÉ PROGRESSIVE</value>
+  </data>
+  <data name="Prg_Mot" xml:space="preserve">
+    <value>MOBILITÉ NON\n PROGRESSIVE</value>
+  </data>
+  <data name="guideline_Med" xml:space="preserve">
+    <value>Valeur guide - Moyenne</value>
+  </data>
+  <data name="guideline_Good" xml:space="preserve">
+    <value>Valeur guide - Bonne</value>
+  </data>
+  <data name="Ref_val" xml:space="preserve">
+    <value>REF. VALEUR</value>
+  </data>
+  <data name="smi_full" xml:space="preserve">
+    <value>Index de mobilité du sperme (SMI)</value>
+  </data>
+  <data name="NO_SMI_CHART" xml:space="preserve">
+    <value>Graphe SMI non disponible</value>
+  </data>
+  <data name="Home_Tot_mot" xml:space="preserve">
+    <value>MOBILITE TOT. (%)</value>
+  </data>
+  <data name="Home_Prog_mot" xml:space="preserve">
+    <value>MOBILITE PROG.(%)</value>
+  </data>
+  <data name="Home_Nonprog_mot" xml:space="preserve">
+    <value>MOBILITE NON PROG. (%)</value>
+  </data>
+  <data name="Home_Immot" xml:space="preserve">
+    <value>IMMOBILITE (%)</value>
+  </data>
+  <data name="Home_morph" xml:space="preserve">
+    <value>POURC.FORM.NORM.(%)</value>
+  </data>
+  <data name="Home_morph_sperm" xml:space="preserve">
+    <value>SPERM.MORPHO.NORM.(M)</value>
+  </data>
+  <data name="Archive_tooltip" xml:space="preserve">
+    <value>Vous pouvez calculer la moyenne de deux tests effectués sur le même échantillon {0}dans un délai de 10 minutes.  Selectionnez 2 tests a moyenner en pressant la touche {0}"ctrl" + "Cliquez" pour activer le bouton et ouvrir la page de calcul pour un rapport {0}sur base d'une moyenne.</value>
+  </data>
+  <data name="Arc_Average" xml:space="preserve">
+    <value>Moyenne</value>
+  </data>
+  <data name="AVG_HEAD" xml:space="preserve">
+    <value>RAPPORT D’ANALYSE MOYEN. SPERME</value>
+  </data>
+  <data name="AVG_SUB_HEAD" xml:space="preserve">
+    <value>Par l’analyseur automatique de sperme</value>
+  </data>
+  <data name="AVRG" xml:space="preserve">
+    <value>MOY.</value>
+  </data>
+  <data name="Avg_Result_info" xml:space="preserve">
+    <value>INFORMATION SUR LES RÉSULTATS DE LA MOYENNE</value>
   </data>
   <data name="AGE" xml:space="preserve">
     <value>ÂGE</value>
@@ -193,7 +250,7 @@
     <value>ÉCHANTILLON TYPE</value>
   </data>
   <data name="SEMEN_EXAMINATION" xml:space="preserve">
-    <value />
+    <value>EXAMEN DE LA SEMENCE</value>
   </data>
   <data name="MOTILITY" xml:space="preserve">
     <value>MOBILITE</value>
@@ -227,6 +284,24 @@
   </data>
   <data name="Could_not_open" xml:space="preserve">
     <value />
+  </data>
+  <data name="COMMENTS" xml:space="preserve">
+    <value>COMMENTARIES</value>
+  </data>
+  <data name="Home_FSC" xml:space="preserve">
+    <value>CSF (M/ml)</value>
+  </data>
+  <data name="Avg_report" xml:space="preserve">
+    <value>Rapport Moyen</value>
+  </data>
+  <data name="Arc_same_test" xml:space="preserve">
+    <value>Vous pouvez calculer la moyenne de deux tests effectués sur le même échantillon dans un délai de 10 minutes.</value>
+  </data>
+  <data name="Arc_err" xml:space="preserve">
+    <value>Erreur d'archivage</value>
+  </data>
+  <data name="Could_not_open" xml:space="preserve">
+    <value>Impossible d'ouvrir l'archive</value>
   </data>
   <data name="PORT_ERROR" xml:space="preserve">
     <value>Port impossible à ouvrir</value>
@@ -286,7 +361,7 @@
     <value>VOLUME</value>
   </data>
   <data name="WBC_CONC" xml:space="preserve">
-    <value>CONC GB</value>
+    <value>CONC. GB</value>
   </data>
   <data name="PH" xml:space="preserve">
     <value>pH</value>
@@ -433,7 +508,7 @@
     <value>SPERM. FUNCT. (M)</value>
   </data>
   <data name="SPERM_WU" xml:space="preserve">
-    <value>SPERM. MORPHO. NORM. (M)</value>
+    <value>SPERM.MORPHO.NORM.(M)</value>
   </data>
   <data name="DEVICE_SN_WU" xml:space="preserve">
     <value>INSTR. NUM #</value>
@@ -460,7 +535,7 @@
     <value>Erreur de fichier Excel</value>
   </data>
   <data name="ACCESS_ERROR" xml:space="preserve">
-    <value>Accès refusé.  Si le fichier est ouvert, refermez-le et réessayez.</value>
+    <value>Accès impossible.  Si le fichier est ouvert, veuillez le ferme et réessayer.</value>
   </data>
   <data name="IMPORT_FAILED" xml:space="preserve">
     <value>L'import a échoué</value>
@@ -559,7 +634,7 @@
     <value>Selectionnez le port:</value>
   </data>
   <data name="PRINTER_NAME" xml:space="preserve">
-    <value>Nom de l'imprimante:</value>
+    <value>Nom de l'imprimante</value>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Langue</value>
@@ -655,7 +730,7 @@
     <value>NOM DU PATIENT</value>
   </data>
   <data name="TESTER_NAME" xml:space="preserve">
-    <value>NOM DE L'OPERATEUR</value>
+    <value>Nom de l'opérateur</value>
   </data>
   <data name="TESTER_DESIGNATION" xml:space="preserve">
     <value>TITRE</value>
@@ -663,8 +738,8 @@
   <data name="FRUCTOSE" xml:space="preserve">
     <value>FRUCTOSE</value>
   </data>
-  <data name="LIQUIFICTION" xml:space="preserve">
-    <value>DUREE DE LA LIQUEFACTION</value>
+  <data name="LIQUIFACTION" xml:space="preserve">
+    <value>LIQUÉFACTION</value>
   </data>
   <data name="REF_BY_DR" xml:space="preserve">
     <value>MEDECIN REFERANT</value>
@@ -724,13 +799,13 @@
     <value>NOM DE L'OPERATEUR</value>
   </data>
   <data name="DESIGNATION" xml:space="preserve">
-    <value>TITRE</value>
+    <value>Titre</value>
   </data>
   <data name="Referred_By_Dr.:" xml:space="preserve">
     <value>PRESCRIT PAR LE DR.:</value>
   </data>
   <data name="Archive" xml:space="preserve">
-    <value>ARCHIVE</value>
+    <value>Archive</value>
   </data>
   <data name="RESULT_INFORMATION" xml:space="preserve">
     <value>INFORMATION RESULTAT</value>

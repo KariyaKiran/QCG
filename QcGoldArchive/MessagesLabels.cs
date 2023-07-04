@@ -26,7 +26,15 @@
                                "VOID", "WHO_5_REM", "MSC", "PMSC", "FSC", "VELOCITY", "SMI", "VOID", "NUM_SPERM",
                                "MOTILE_SPERM", "PROG_SPERM", "FUNC_SPERM", "VOID", "SPERM_REM"};
 
+        public static string[] REMOVE_LABELS_who6 = {"DEVICE_SN", "SW_VERSION", "TEST_DATE", "PATIENT_ID", "VOID", "BIRTH_DATE", "ABSTINENCE",
+                               "ACCESSION", "VOID", "COLLECTED_DATE", "RECEIVED", "TYPE", "VOLUME", "WBC_CONC",
+                               "PH", "VOID", "CONC", "MOTILITY", "RAPID_M", "SLOW_M",  "NONPROG", "IMMOT",
+                                "N_MORPH_REM", "MSC", "PMSC_RAPID_L","PMSC_SLOW_L", "FSC", "VELOCITY", "SMI", "VOID", "NUM_SPERM",
+                               "MOTILE_SPERM", "PROG_SPERM", "FUNC_SPERM", "VOID", "SPERM_REM"};
+
         public static string[] FROZEN_LABELS = {"MSC", "PMSC", "VELOCITY", "SMI", "MOTILE_SPERM", "PROG_SPERM" };
+
+        public static string[] FROZEN_LABELS_who6 = { "MSC", "PMSC_RAPID_L", "PMSC_SLOW_L", "VELOCITY", "SMI", "MOTILE_SPERM", "PROG_SPERM" };
 
         public static string[] UNITS = {"DAYS", "ML", "M_PER_ML", "PERCENT", "M", "MIC_PER_SEC"};
 
@@ -44,6 +52,12 @@
                                "IMMOT_WU", "WHO_5_WU", "MSC_WU", "PMSC_WU", "FSC_WU", "VELOCITY_WU", "SMI", "NUM_SPERM_WU",
                                "MOTILE_SPERM_WU", "PROG_SPERM_WU", "FUNC_SPERM_WU", "SPERM_WU","PAT_NAME","Tes_name","TESTER_DESIGNATION","FRUCTOSE","LIQUIFICTION","Ref_By_Dr","REF_BY_DR2","REF_BY_DR3", "SW_VERSION", "DEVICE_SN_WU" };
 
+        public static string[] NEW_FILE_INDIAN_LABELS_WHO6 = {"TEST DATE", "PATIENT ID","PATIENT NAME" ,"BIRTH DATE", "ABSTINENCE", "ACCESSION", "COLLECTED DATE",
+                               "RECEIVED DATE", "TYPE", "VOLUME", "WBC_CONC", "PH", "CONC.","Total Motile PR_NP", "PROGRESSIVE","RAPID PROGRESSIVE","SLOW PROGRESSIVE", "NONPROG_WU",
+                               "IMMOTILE", "WHO_5", "MSC", "PMSC","RAPID PMSC ", "SLOW PMSC", "FSC", "VELOCITY", "SMI", "SPERM #",
+                               "MOTILE_SPERM ", "PROG_SPERM ", "FUNC_SPERM ", "SPERM","TESTER NAME","TESTER DESIGNATION","FRUCTOSE","LIQUIFACTION","Referred_dr","REF_BY_DR2","REF_BY_DR3","Avg_str","CNT_Str","OD_Str","aw_Data","AGE","OPTIONAL1","MAN_FRUCTOSE","MAN_VITALITY","MAN_RBC","MAN_ROUNDEDCELLS","MAN_AGGREGATION","MAN_AGGLUTINATION","MAN_OPTIONAL","MAN_NORMALFORMS","MAN_HEADDEFECT","MAN_NECK","MAN_TAIL","MAN_CYTOPLASM","MAN_ACROSOME","MAN_PINHEADS","COMMENTS","SW_VERSION", "DEVICE_SN_WU" };
+
+        
     }
    
     class MessagesLabelsEN
@@ -169,6 +183,15 @@
         public static string SPERM = "MORPH.NORM.SPERM";
         public static string SPERM_REM = "SPERM";
         public static string SYSTEM_DATA = "SYSTEM DATA";
+
+
+        //New labes who6
+        public static string RAPID_PROGERSIVE_lbl = "RAPIDLY PROG.MOTILITY";
+        public static string SLOW_PROGERSIVE_lbl = "SLOWLY PROG.MOTILITY";
+        public static string RAPID_PMSC_lbl = "RAPID PMSC (M/ml) *";
+        public static string SLOW_PMSC_lbl = "SLOW PMSC (M/ml) *";
+
+
 
         public static string BIRTH = "BIRTH";
         public static string COLLECTED = "COLLECTED";

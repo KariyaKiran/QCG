@@ -448,7 +448,7 @@
     <value>Selezionare porta:</value>
   </data>
   <data name="PRINTER_NAME" xml:space="preserve">
-    <value>Nome stampante:</value>
+    <value>Nome stampante</value>
   </data>
   <data name="LANGUAGE" xml:space="preserve">
     <value>Lingua</value>
@@ -556,10 +556,10 @@
     <value>riferimento dal medico 1</value>
   </data>
   <data name="REF_BY_DR2" xml:space="preserve">
-    <value>riferimento dal medico 2</value>
+    <value>Riferimento dal medico 2</value>
   </data>
   <data name="REF_BY_DR3" xml:space="preserve">
-    <value>riferimento dal medico 3</value>
+    <value>Riferimento dal medico 3</value>
   </data>
   <data name="MANUAL_ENTRY" xml:space="preserve">
     <value>Inserimento manuale</value>
@@ -582,11 +582,8 @@
   <data name="AGE" xml:space="preserve">
     <value>ETÀ</value>
   </data>
-  <data name="Tester_Information" xml:space="preserve">
-    <value>ANWENDERINFORMATIONEN</value>
-  </data>
   <data name="REF_BY_DR" xml:space="preserve">
-    <value>RIFERITO DAL DR .:</value>
+    <value>RIFERITO DAL DR .</value>
   </data>
   <data name="RESULT_INFORMATION" xml:space="preserve">
     <value>INFORMAZIONI RISULTATO</value>
@@ -684,6 +681,9 @@
   <data name="Archive_Window_Open" xml:space="preserve">
     <value>La finestra archivio è già aperta</value>
   </data>
+  <data name="Could_not_open" xml:space="preserve">
+    <value>Impossibile aprire l'archivio</value>
+  </data>
   <data name="Archive_Empty" xml:space="preserve">
     <value>L'archivio è vuoto o non esiste</value>
   </data>
@@ -703,7 +703,7 @@
     <value>Inserisci il titolo del rapporto</value>
   </data>
   <data name="You_choose_old_Record" xml:space="preserve">
-    <value>Hai scelto un file di archivio precedente. Scegli un nuovo file, altrimenti tutti I tuoi vecchi test verranno cancellati. Vuoi continuare?</value>
+    <value>Hai scelto una vecchia versione del file di archivio. Per avviare un nuovo archivio, premere "Annulla" e modificare il nome del file CSV. Per convertirlo per l'uso in questa versione, premere "OK". Verrà conservato un backup del vecchio archivio.</value>
   </data>
   <data name="csv_file_not_open" xml:space="preserve">
     <value>Assicurarsi che il file CSV non sia aperto</value>
@@ -742,10 +742,10 @@
     <value>GRAFICO DI ANALISI</value>
   </data>
   <data name="Tot_Prg_Mot" xml:space="preserve">
-    <value>Totale motilità \n progressiva</value>
+    <value> MOTILITÀ \n PROGRESSIVA</value>
   </data>
   <data name="Prg_Mot" xml:space="preserve">
-    <value>motilità non progressiva</value>
+    <value>MOTILITÀ \nNON PROGRESSIVA</value>
   </data>
   <data name="guideline_Med" xml:space="preserve">
     <value>valore indicativo - Medio</value>
@@ -761,5 +761,53 @@
   </data>
   <data name="NO_SMI_CHART" xml:space="preserve">
     <value>SMI GRAFICO NON DISPONIBILE</value>
+  </data>
+  <data name="Home_Tot_mot" xml:space="preserve">
+    <value>MOTILITÀ TOTALE (%)</value>
+  </data>
+  <data name="Home_Prog_mot" xml:space="preserve">
+    <value>MOTILITÀ PROGR.(%)</value>
+  </data>
+  <data name="Home_Nonprog_mot" xml:space="preserve">
+    <value>NON-PROG.MOT.(%)</value>
+  </data>
+  <data name="Home_Immot" xml:space="preserve">
+    <value>IMMOTILITÀ  (%)</value>
+  </data>
+  <data name="Home_morph" xml:space="preserve">
+    <value>FORME MORF.NORM (%)</value>
+  </data>
+  <data name="Home_morph_sperm" xml:space="preserve">
+    <value>SPERM.MORF.NORMALI (M)</value>
+  </data>
+  <data name="AVRG" xml:space="preserve">
+    <value>AVRG</value>
+  </data>
+  <data name="Archive_tooltip" xml:space="preserve">
+    <value>È possibile calcolare la media di due test eseguiti nello stesso campione entro{0}10 minuti. Selezionare due test corrispondenti mediante "ctrl" + "clic" per{0} abilitare il pulsante e aprire la schermata dei risultati per il report medio.</value>
+  </data>
+  <data name="Home_FSC" xml:space="preserve">
+    <value>FSC (M/ml)</value>
+  </data>
+  <data name="Avg_Result_info" xml:space="preserve">
+    <value>INFORMAZIONI SUL RISULTATO MEDIO</value>
+  </data>
+  <data name="COMMENTS" xml:space="preserve">
+    <value>COMMENTI</value>
+  </data>
+  <data name="Avg_report" xml:space="preserve">
+    <value>Report Medio</value>
+  </data>
+  <data name="AVG_HEAD" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AVG_SUB_HEAD" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Arc_same_test" xml:space="preserve">
+    <value>È possibile calcolare la media di due test eseguiti nello stesso campione entro 10 minuti.</value>
+  </data>
+  <data name="Arc_err" xml:space="preserve">
+    <value>Errore di archivio</value>
   </data>
 </root>

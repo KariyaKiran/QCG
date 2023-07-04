@@ -5771,5 +5771,15 @@ namespace QcGoldArchive
         {
 
         }
+
+        private void label28_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void motspermbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
