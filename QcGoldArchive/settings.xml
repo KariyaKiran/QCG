@@ -1,0 +1,23 @@
+<Settings>
+  <Port>COM1</Port>
+  <Printer>Microsoft Print to PDF</Printer>
+  <ExportFile>C:\MES\QcGoldArchive.csv</ExportFile>
+  <AutoPrint>True</AutoPrint>
+  <usedefault>True</usedefault>
+  <DateFormat>0</DateFormat>
+  <Language>en-US</Language>
+  <ResultsPrint>False</ResultsPrint>
+  <HeaderSpace>True</HeaderSpace>
+  <HeaderSpaceValue>15</HeaderSpaceValue>
+  <Digitalsignaturepath>C:\Users\Admin\Pictures\vector-signature-autograph-hand-drawn-260nw-2046349127.png</Digitalsignaturepath>
+  <ReportType>1</ReportType>
+  <title>Automated Sperm Quality Analyzer</title>
+  <pdfautoprint>False</pdfautoprint>
+  <subtitleval>automated semen analysis report by: sqa QCG (MES-ISRAEL)</subtitleval>
+  <optionalValue>man optional</optionalValue>
+  <optionalValue2>FRUS</optionalValue2>
+  <removeFooter>False</removeFooter>
+  <criteria>0</criteria>
+  <QCGScreenSize>1</QCGScreenSize>
+  <AddtionalText>False</AddtionalText>
+</Settings>

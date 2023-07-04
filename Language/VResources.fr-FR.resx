@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Archive_Empty" xml:space="preserve">
+    <value>L'archive est vide ou n'existe pas</value>
+  </data>
+  <data name="No_Data" xml:space="preserve">
+    <value>Pas données disponibles.  Veuillez importer le test à nouveau.</value>
+  </data>
+  <data name="No_Report" xml:space="preserve">
+    <value>Il n'y a pas de rapport pour cette donnée</value>
+  </data>
+  <data name="Settings_Error" xml:space="preserve">
+    <value>Erreur de paramétrage</value>
+  </data>
+  <data name="Enter_value" xml:space="preserve">
+    <value>Entrer la valeur</value>
+  </data>
+  <data name="Please_enter_title" xml:space="preserve">
+    <value>Veuillez entrer le titre du rapport</value>
+  </data>
+  <data name="You_choose_old_Record" xml:space="preserve">
+    <value>Vous avez choisi un fichier d'archive ancien.  Veuillez choisir un nouveau fichier, sinon, tous vos tests précédants seront effacés.  Voulez-vous continuer?</value>
+  </data>
+  <data name="csv_file_not_open" xml:space="preserve">
+    <value>Veuillez vous assurer que le fichier csv n'est pas ouvert</value>
+  </data>
+  <data name="Settings_window_open" xml:space="preserve">
+    <value>L'écran de paramétrage est déjà ouvert</value>
+  </data>
+  <data name="Select_printer" xml:space="preserve">
+    <value>Selectionnez une imprimante</value>
+  </data>
+  <data name="Referred_dr" xml:space="preserve">
+    <value>MEDECIN REFERANT</value>
+  </data>
+  <data name="Arc_tesdate" xml:space="preserve">
+    <value>Date du test</value>
+  </data>
+  <data name="Arc_Accession" xml:space="preserve">
+    <value>NUM ACCESS.</value>
+  </data>
+  <data name="Arc_Pat_ID" xml:space="preserve">
+    <value>ID Patient</value>
+  </data>
+  <data name="Arc_Pat_Name" xml:space="preserve">
+    <value>Nom du Patient</value>
+  </data>
+  <data name="select_printer_Name" xml:space="preserve">
+    <value>Veuillez choisir le nom de l'imprimante</value>
+  </data>
+  <data name="Enter_Header_value" xml:space="preserve">
+    <value>Entrez la valeur pour l'espace d'en-tête</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>Enterz</value>
+  </data>
+  <data name="No_Mot_Chart" xml:space="preserve">
+    <value>Le graphique de motilité n'est pas disponible</value>
+  </data>
+  <data name="Analysing_charts" xml:space="preserve">
+    <value>Graphe d'analyse</value>
+  </data>
+  <data name="REF_BY_DR" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AGE" xml:space="preserve">
+    <value>ÂGE</value>
+  </data>
+  <data name="Tes_name" xml:space="preserve">
+    <value>NOM DE L'OPERATEUR</value>
+  </data>
+  <data name="SIGNATURE" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="SAMPLE_TYPE" xml:space="preserve">
+    <value>ÉCHANTILLON TYPE</value>
+  </data>
+  <data name="SEMEN_EXAMINATION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MOTILITY" xml:space="preserve">
+    <value>MOBILITE</value>
+  </data>
+  <data name="System_information" xml:space="preserve">
+    <value>INFORMATIONS SYSTÈME</value>
+  </data>
+  <data name="Invalid_data" xml:space="preserve">
+    <value>Donnée invalide</value>
+  </data>
+  <data name="No_file_exists" xml:space="preserve">
+    <value>Vérifiez que les données existent</value>
+  </data>
+  <data name="Max_Value" xml:space="preserve">
+    <value>La valeur maximale est 30 mm</value>
+  </data>
+  <data name="Enter_numerical" xml:space="preserve">
+    <value>Entrez uniquement des valeurs numériques</value>
+  </data>
+  <data name="Clear_The_Result" xml:space="preserve">
+    <value>Voullez-vous effacer le résultat?</value>
+  </data>
+  <data name="Clear_Result" xml:space="preserve">
+    <value>Effacer le résultat</value>
+  </data>
+  <data name="File_Open" xml:space="preserve">
+    <value>Fichier déjà ouvert</value>
+  </data>
+  <data name="Archive_Window_Open" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Could_not_open" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PORT_ERROR" xml:space="preserve">
+    <value>Port impossible à ouvrir</value>
+  </data>
+  <data name="PORT_ERROR_CAPTION" xml:space="preserve">
+    <value>Erreur de Port</value>
+  </data>
+  <data name="EXPORT_ERROR" xml:space="preserve">
+    <value>Erreur inattendue.  Les données n'ont pas été exportées vers Excel.</value>
+  </data>
+  <data name="END_OF_REPORT" xml:space="preserve">
+    <value>fin du rapport</value>
+  </data>
+  <data name="REPORT_ERROR" xml:space="preserve">
+    <value>Pas de données disponibles.  Veuillez importer les résultats du test à nouveau</value>
+  </data>
+  <data name="REPORT_ERROR_CAPTION" xml:space="preserve">
+    <value>Erreur de rapport</value>
+  </data>
+  <data name="REPORT_CREATION_ERROR" xml:space="preserve">
+    <value>Impossible de créer le rapport</value>
+  </data>
+  <data name="DEVICE_SN" xml:space="preserve">
+    <value>INSTR. NUM #</value>
+  </data>
+  <data name="SW_VERSION" xml:space="preserve">
+    <value>VERS. LOGICIEL</value>
+  </data>
+  <data name="TEST_DATE" xml:space="preserve">
+    <value>DATE DU TEST</value>
+  </data>
+  <data name="PATIENT_ID" xml:space="preserve">
+    <value>ID PATIENT</value>
+  </data>
+  <data name="VOID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BIRTH_DATE" xml:space="preserve">
+    <value>DATE DE NAISSANCE</value>
+  </data>
+  <data name="ABSTINENCE" xml:space="preserve">
+    <value>ABSTINENCE</value>
+  </data>
+  <data name="ACCESSION" xml:space="preserve">
+    <value>NUM ACCESS. #</value>
+  </data>
+  <data name="COLLECTED_DATE" xml:space="preserve">
+    <value>COLLECTE A</value>
+  </data>
+  <data name="RECEIVED" xml:space="preserve">
+    <value>REÇU A</value>
+  </data>
+  <data name="TYPE" xml:space="preserve">
+    <value>TYPE</value>
+  </data>
+  <data name="VOLUME" xml:space="preserve">
+    <value>VOLUME</value>
+  </data>
+  <data name="WBC_CONC" xml:space="preserve">
+    <value>CONC GB</value>
+  </data>
+  <data name="PH" xml:space="preserve">
+    <value>pH</value>
+  </data>
+  <data name="CONC" xml:space="preserve">
+    <value>CONC.</value>
+  </data>
+  <data name="PR_NP" xml:space="preserve">
+    <value>MOBILITE TOTALE &lt;PR+NP&gt;</value>
+  </data>
+  <data name="PROG" xml:space="preserve">
+    <value>GRADES MOBILITE: PROG. &lt;PR&gt;</value>
+  </data>
+  <data name="NONPROG" xml:space="preserve">
+    <value>NON PROG. &lt;NP&gt;</value>
+  </data>
+  <data name="IMMOT" xml:space="preserve">
+    <value>IMMOBILES &lt;IM&gt;</value>
+  </data>
+  <data name="WHO_5" xml:space="preserve">
+    <value>POURCENTAGE FORMES MORPHO NORMALES &lt;OMS 5&gt;</value>
+  </data>
+  <data name="MSC" xml:space="preserve">
+    <value>CSM</value>
+  </data>
+  <data name="PMSC" xml:space="preserve">
+    <value>CSPM</value>
+  </data>
+  <data name="FSC" xml:space="preserve">
+    <value>CSF</value>
+  </data>
+  <data name="VELOCITY" xml:space="preserve">
+    <value>VITESSE</value>
+  </data>
+  <data name="SMI" xml:space="preserve">
+    <value>SMI</value>
+  </data>
+  <data name="NUM_SPERM" xml:space="preserve">
+    <value>SPERMES#</value>
+  </data>
+  <data name="MOTILE_SPERM" xml:space="preserve">
+    <value>SPERM. MOBILES</value>
+  </data>
+  <data name="PROG_SPERM" xml:space="preserve">
+    <value>SPERM. PROGR. MOB.</value>
+  </data>
+  <data name="FUNC_SPERM" xml:space="preserve">
+    <value>SPERM. FONCT.</value>
+  </data>
+  <data name="SPERM" xml:space="preserve">
+    <value>SPERM. MORPHO. NORM.</value>
+  </data>
+  <data name="SYSTEM_DATA" xml:space="preserve">
+    <value>DONNEES SYSTEME</value>
+  </data>
+  <data name="MOTILITY_RESULTS" xml:space="preserve">
+    <value>Résultats de mobilité seulement</value>
+  </data>
+  <data name="DAYS" xml:space="preserve">
+    <value>JOURS</value>
+  </data>
+  <data name="ML" xml:space="preserve">
+    <value>ml</value>
+  </data>
+  <data name="M_PER_ML" xml:space="preserve">
+    <value>M/ml</value>
+  </data>
+  <data name="PERCENT" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="MIC_PER_SEC" xml:space="preserve">
+    <value>mic/sec</value>
+  </data>
+  <data name="FROZEN" xml:space="preserve">
+    <value>CONGELE</value>
+  </data>
+  <data name="FRESH" xml:space="preserve">
+    <value>FRAIS</value>
+  </data>
+  <data name="WASHED" xml:space="preserve">
+    <value>LAVE</value>
+  </data>
+  <data name="RECEIVED_WU" xml:space="preserve">
+    <value>REÇU (Date/Heure)</value>
+  </data>
+  <data name="COLLECTED_DATE_WU" xml:space="preserve">
+    <value>COLLECTE (Date/Heure)</value>
+  </data>
+  <data name="TEST_DATE_WU" xml:space="preserve">
+    <value>DATE DU TEST (Date/Heure)</value>
+  </data>
+  <data name="ABSTINENCE_WU" xml:space="preserve">
+    <value>ABSTINENCE (Jours)</value>
+  </data>
+  <data name="VOLUME_WU" xml:space="preserve">
+    <value>VOLUME (ml)</value>
+  </data>
+  <data name="WBC_CONC_WU" xml:space="preserve">
+    <value>CONC. GB (M/ml)</value>
+  </data>
+  <data name="CONC_WU" xml:space="preserve">
+    <value>CONC. (M/ml)</value>
+  </data>
+  <data name="PR_NP_WU" xml:space="preserve">
+    <value>MOBILITE TOTALE &lt;PR+NP&gt; (%)</value>
+  </data>
+  <data name="PROG_WU" xml:space="preserve">
+    <value>MOBILITE PROGRESSIVE &lt;PR&gt; (%)</value>
+  </data>
+  <data name="NONPROG_WU" xml:space="preserve">
+    <value>MOBILITE NON PROG. &lt;NP&gt; (%)</value>
+  </data>
+  <data name="IMMOT_WU" xml:space="preserve">
+    <value>IMMOBILITE (%)</value>
+  </data>
+  <data name="WHO_5_WU" xml:space="preserve">
+    <value>POURC. FORMES NORM. &lt;OMS 5&gt; (%)</value>
+  </data>
+  <data name="MSC_WU" xml:space="preserve">
+    <value>CSM (M/ml)</value>
+  </data>
+  <data name="PMSC_WU" xml:space="preserve">
+    <value>CSPM (M/ml)</value>
+  </data>
+  <data name="FSC_WU" xml:space="preserve">
+    <value>CSF (M/ml)</value>
+  </data>
+  <data name="VELOCITY_WU" xml:space="preserve">
+    <value>VITESSE (mic/sec)</value>
+  </data>
+  <data name="NUM_SPERM_WU" xml:space="preserve">
+    <value># SPERM. (M)</value>
+  </data>
+  <data name="MOTILE_SPERM_WU" xml:space="preserve">
+    <value>SPERM. MOB. (M)</value>
+  </data>
+  <data name="PROG_SPERM_WU" xml:space="preserve">
+    <value>SPERM PROG. MOB. (M)</value>
+  </data>
+  <data name="FUNC_SPERM_WU" xml:space="preserve">
+    <value>SPERM. FUNCT. (M)</value>
+  </data>
+  <data name="SPERM_WU" xml:space="preserve">
+    <value>SPERM. MORPHO. NORM. (M)</value>
+  </data>
+  <data name="DEVICE_SN_WU" xml:space="preserve">
+    <value>INSTR. NUM #</value>
+  </data>
+  <data name="TITLE_TEST_RESULTS" xml:space="preserve">
+    <value>QwikCheck GOLD: RAPPORT DE RESULTAT D'ANALYSES</value>
+  </data>
+  <data name="PATIENT_DATA" xml:space="preserve">
+    <value>Données Patient</value>
+  </data>
+  <data name="SAMPLE_DATA" xml:space="preserve">
+    <value>Données échantillon</value>
+  </data>
+  <data name="TEST_RESULTS" xml:space="preserve">
+    <value>Résultats du test</value>
+  </data>
+  <data name="TOTALS_PER_VOL" xml:space="preserve">
+    <value>Totaux par volume</value>
+  </data>
+  <data name="OTHER" xml:space="preserve">
+    <value>Autre</value>
+  </data>
+  <data name="EXCEL_FILE_ERROR_CAPTION" xml:space="preserve">
+    <value>Erreur de fichier Excel</value>
+  </data>
+  <data name="ACCESS_ERROR" xml:space="preserve">
+    <value>Accès refusé.  Si le fichier est ouvert, refermez-le et réessayez.</value>
+  </data>
+  <data name="IMPORT_FAILED" xml:space="preserve">
+    <value>L'import a échoué</value>
+  </data>
+  <data name="EXPORT_FILE_ERROR" xml:space="preserve">
+    <value>Erreur de fichier Excel. Les données n'ont pas été exportées vers Excel.</value>
+  </data>
+  <data name="PRINTER_ERROR" xml:space="preserve">
+    <value>Erreur d'impression</value>
+  </data>
+  <data name="SETTINGS_WINDOW_ALREADY_OPENED" xml:space="preserve">
+    <value>L'écran de paramétrage est déjà ouvert</value>
+  </data>
+  <data name="SETTINGS" xml:space="preserve">
+    <value>Paramétrage</value>
+  </data>
+  <data name="CLEAR" xml:space="preserve">
+    <value>Effacer</value>
+  </data>
+  <data name="PRINT" xml:space="preserve">
+    <value>Imprimer le rapport</value>
+  </data>
+  <data name="YES" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="EXPORT_FILE_NAME" xml:space="preserve">
+    <value>Nom du fichier d'export:</value>
+  </data>
+  <data name="VERSION" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="SETTINGS_FILE_CORRUPTED_DEFAULT" xml:space="preserve">
+    <value>Le fichier de paramétrage est corrompu.  Les données par défaut seront utilisées</value>
+  </data>
+  <data name="SETTINGS_FILE_CORRUPTED_RELOAD" xml:space="preserve">
+    <value>Le fichier de paramétrage est corrompu.  Veuillez redémarrer l'application</value>
+  </data>
+  <data name="NONE" xml:space="preserve">
+    <value>Aucun</value>
+  </data>
+  <data name="SELECT_FILE_TO_EXPORT" xml:space="preserve">
+    <value>Selectionnez un fichier pour l'export</value>
+  </data>
+  <data name="EXCEL_NOT_EXIST" xml:space="preserve">
+    <value>Excel est absent du système</value>
+  </data>
+  <data name="SAVE_CHANGES" xml:space="preserve">
+    <value>Voulez-vous sauvegarder les modifications?</value>
+  </data>
+  <data name="CONFIRM_CHANGES" xml:space="preserve">
+    <value>Confimez les changements</value>
+  </data>
+  <data name="SPECIFY_FILE_NAME" xml:space="preserve">
+    <value>Veuillez spécifier le nom du fichier d'export</value>
+  </data>
+  <data name="EXPORT_FILENAME_MISSING" xml:space="preserve">
+    <value>Le nom du fichier d'export est manquant</value>
+  </data>
+  <data name="INVALID_FILEPATH" xml:space="preserve">
+    <value>Chemin du fichier incorrect</value>
+  </data>
+  <data name="INVALID_FILENAME" xml:space="preserve">
+    <value>Nom du fichier incorrect</value>
+  </data>
+  <data name="SETTINGS_FILE_ERROR" xml:space="preserve">
+    <value>Erreur de paramétrage</value>
+  </data>
+  <data name="FILE_OPEN_ERROR" xml:space="preserve">
+    <value>Impossible d'exporter.  Veuillez fermer le fichier</value>
+  </data>
+  <data name="EXPORT_ERROR_CAPTION" xml:space="preserve">
+    <value>Erreur d'export</value>
+  </data>
+  <data name="PORT" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="PRINTER" xml:space="preserve">
+    <value>Imprimante</value>
+  </data>
+  <data name="EXPORT_FILE" xml:space="preserve">
+    <value>Export de fichier</value>
+  </data>
+  <data name="AUTO_PRINT" xml:space="preserve">
+    <value>Impression automatique</value>
+  </data>
+  <data name="EXPORT" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="DATE_FORMAT" xml:space="preserve">
+    <value>Format de la date:</value>
+  </data>
+  <data name="SELECT_PORT" xml:space="preserve">
+    <value>Selectionnez le port:</value>
+  </data>
+  <data name="PRINTER_NAME" xml:space="preserve">
+    <value>Nom de l'imprimante:</value>
+  </data>
+  <data name="LANGUAGE" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="CHOOSE" xml:space="preserve">
+    <value>Veuillez choisir</value>
+  </data>
+  <data name="EXPORT_TO_EXCEL" xml:space="preserve">
+    <value>Export vers le format CSV</value>
+  </data>
+  <data name="EXPORT_TO_EXCEL_SETTINGS" xml:space="preserve">
+    <value>Export vers le format CSV</value>
+  </data>
+  <data name="FILE_NAME" xml:space="preserve">
+    <value>Nom du fichier:</value>
+  </data>
+  <data name="DATE_FORMAT_SET" xml:space="preserve">
+    <value>Format de la date:</value>
+  </data>
+  <data name="OPEN" xml:space="preserve">
+    <value>Ouvrir</value>
+  </data>
+  <data name="SAVE" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="CANCEL" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="PRINTED_FROM" xml:space="preserve">
+    <value>Imprimé depuis</value>
+  </data>
+  <data name="REPORT_SETTINGS" xml:space="preserve">
+    <value>Paramètres du rapport</value>
+  </data>
+  <data name="MAKE_PDF_REPORT" xml:space="preserve">
+    <value>Créer un rapport PDF</value>
+  </data>
+  <data name="PRINT_TEST_RESULTS" xml:space="preserve">
+    <value>Imprimer les résultats du test</value>
+  </data>
+  <data name="ADD_HEADER_SPACE" xml:space="preserve">
+    <value>Ajouter un espace d'entête</value>
+  </data>
+  <data name="HEADER_SPACE_UNIT" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="REPORT_FILE_NAME" xml:space="preserve">
+    <value>Rapport d'analyse de sperme</value>
+  </data>
+  <data name="TEST_REPORT" xml:space="preserve">
+    <value>RAPPORT DE TEST D'ANALYSE DE SPERME</value>
+  </data>
+  <data name="REPORT_CONTINUED" xml:space="preserve">
+    <value>LE RAPPORT CONTINUE</value>
+  </data>
+  <data name="DEVICE_INFO" xml:space="preserve">
+    <value>INFORMATIONS INSTRUMENT</value>
+  </data>
+  <data name="PATIENT_INFO" xml:space="preserve">
+    <value>INFORMATIONS PATIENT</value>
+  </data>
+  <data name="SAMPLE_INFO" xml:space="preserve">
+    <value>INFORMATIONS ECHANTILLON</value>
+  </data>
+  <data name="PARAMETER" xml:space="preserve">
+    <value>PARAMETRES</value>
+  </data>
+  <data name="RESULT" xml:space="preserve">
+    <value>RESULTAT</value>
+  </data>
+  <data name="PR_NP_REM" xml:space="preserve">
+    <value>&lt;PR+NP&gt;</value>
+  </data>
+  <data name="PROG_REM" xml:space="preserve">
+    <value>PROG. &lt;PR&gt;</value>
+  </data>
+  <data name="WHO_5_REM" xml:space="preserve">
+    <value>&lt;OMS 5&gt;</value>
+  </data>
+  <data name="SPERM_REM" xml:space="preserve">
+    <value>SPERM</value>
+  </data>
+  <data name="EXPORT_PDF" xml:space="preserve">
+    <value>Exporter en PDF</value>
+  </data>
+  <data name="PRINT_RESULTS_STRIP" xml:space="preserve">
+    <value>Impression résultats strip</value>
+  </data>
+  <data name="PRINT_REPORT" xml:space="preserve">
+    <value>Impression du rapport</value>
+  </data>
+  <data name="PAT_NAME" xml:space="preserve">
+    <value>NOM DU PATIENT</value>
+  </data>
+  <data name="TESTER_NAME" xml:space="preserve">
+    <value>NOM DE L'OPERATEUR</value>
+  </data>
+  <data name="TESTER_DESIGNATION" xml:space="preserve">
+    <value>TITRE</value>
+  </data>
+  <data name="FRUCTOSE" xml:space="preserve">
+    <value>FRUCTOSE</value>
+  </data>
+  <data name="LIQUIFICTION" xml:space="preserve">
+    <value>DUREE DE LA LIQUEFACTION</value>
+  </data>
+  <data name="REF_BY_DR" xml:space="preserve">
+    <value>MEDECIN REFERANT</value>
+  </data>
+  <data name="REF_BY_DR2" xml:space="preserve">
+    <value>MEDECIN REFERANT 2</value>
+  </data>
+  <data name="REF_BY_DR3" xml:space="preserve">
+    <value>MEDECIN REFERANT 3</value>
+  </data>
+  <data name="MANUAL_ENTRY" xml:space="preserve">
+    <value>ENTREE MANUELLE</value>
+  </data>
+  <data name="Avg_str" xml:space="preserve">
+    <value>AVG</value>
+  </data>
+  <data name="aw_Data" xml:space="preserve">
+    <value>AW</value>
+  </data>
+  <data name="CNT_Str" xml:space="preserve">
+    <value>CNT</value>
+  </data>
+  <data name="OD_Str" xml:space="preserve">
+    <value>DENSITE OPTIQUE</value>
+  </data>
+  <data name="Test_time" xml:space="preserve">
+    <value>HEURE DU TEST</value>
+  </data>
+  <data name="Report_title" xml:space="preserve">
+    <value>Titre du rapport</value>
+  </data>
+  <data name="Report_type" xml:space="preserve">
+    <value>Type de Rapport</value>
+  </data>
+  <data name="ADVANCED_REPORT" xml:space="preserve">
+    <value>Rapport détaillé</value>
+  </data>
+  <data name="BASIC_REPORT" xml:space="preserve">
+    <value>Rapport de base</value>
+  </data>
+  <data name="Use_Default" xml:space="preserve">
+    <value>Utilisez les paramètres par défaut</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Titre</value>
+  </data>
+  <data name="Sub_Title" xml:space="preserve">
+    <value>Sous-titre</value>
+  </data>
+  <data name="ADD_SIGNATURE" xml:space="preserve">
+    <value>Ajouter une signature</value>
+  </data>
+  <data name="Tester_Information" xml:space="preserve">
+    <value>INFORMATIONS OPERATEUR</value>
+  </data>
+  <data name="Tester_Name" xml:space="preserve">
+    <value>NOM DE L'OPERATEUR</value>
+  </data>
+  <data name="DESIGNATION" xml:space="preserve">
+    <value>TITRE</value>
+  </data>
+  <data name="Referred_By_Dr.:" xml:space="preserve">
+    <value>PRESCRIT PAR LE DR.:</value>
+  </data>
+  <data name="Archive" xml:space="preserve">
+    <value>ARCHIVE</value>
+  </data>
+  <data name="RESULT_INFORMATION" xml:space="preserve">
+    <value>INFORMATION RESULTAT</value>
+  </data>
+  <data name="HOME_ADV_REPORT" xml:space="preserve">
+    <value>Rapport détaillé</value>
+  </data>
+  <data name="HOME_BASIC_REPORT" xml:space="preserve">
+    <value>Rapport de base</value>
+  </data>
+  <data name="CHOOSE" xml:space="preserve">
+    <value>Choisir</value>
+  </data>
+  <data name="ARCHIVE_HEADING" xml:space="preserve">
+    <value>Archiver les résultat du test</value>
+  </data>
+  <data name="SEARCH_BY" xml:space="preserve">
+    <value>Rechercher par</value>
+  </data>
+  <data name="SEARCH" xml:space="preserve">
+    <value>Rechercher</value>
+  </data>
+  <data name="CLEAR_FILTER" xml:space="preserve">
+    <value>Effacer les filtres</value>
+  </data>
+  <data name="CONFIRM" xml:space="preserve">
+    <value>Confimer</value>
+  </data>
+  <data name="Archive_Error_Missing" xml:space="preserve">
+    <value>L'archive est vide ou n'existe pas</value>
+  </data>
+</root>

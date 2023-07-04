@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QcGoldArchive", "QcGoldArchive\QcGoldArchive.csproj", "{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdfReportTest", "pdfReportTest\pdfReportTest.csproj", "{7BF9932D-131A-469D-A8E8-1925E0842361}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "QcGoldArchiveSetup", "QcGoldArchive_Setup\Setup1\QcGoldArchiveSetup.isproj", "{EF105F95-7060-4668-A236-9253A6E201AB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE} = {31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		DVD-5|Any CPU = DVD-5|Any CPU
+		DVD-5|x86 = DVD-5|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		SingleImage|Any CPU = SingleImage|Any CPU
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.CD_ROM|x86.ActiveCfg = Release|x86
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.CD_ROM|x86.Build.0 = Release|x86
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.Debug|x86.ActiveCfg = Debug|x86
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.Debug|x86.Build.0 = Debug|x86
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.DVD-5|x86.ActiveCfg = Debug|x86
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.DVD-5|x86.Build.0 = Debug|x86
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.Release|x86.ActiveCfg = Release|x86
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.Release|x86.Build.0 = Release|x86
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.SingleImage|x86.ActiveCfg = Release|x86
+		{31CD71A4-2EC1-484C-AE0B-6D76B2A819CE}.SingleImage|x86.Build.0 = Release|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.CD_ROM|x86.ActiveCfg = Release|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.CD_ROM|x86.Build.0 = Release|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.Debug|x86.ActiveCfg = Debug|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.Debug|x86.Build.0 = Debug|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.DVD-5|x86.ActiveCfg = Debug|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.DVD-5|x86.Build.0 = Debug|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.Release|x86.ActiveCfg = Release|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.Release|x86.Build.0 = Release|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.SingleImage|x86.ActiveCfg = Release|x86
+		{7BF9932D-131A-469D-A8E8-1925E0842361}.SingleImage|x86.Build.0 = Release|x86
+		{EF105F95-7060-4668-A236-9253A6E201AB}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{EF105F95-7060-4668-A236-9253A6E201AB}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{EF105F95-7060-4668-A236-9253A6E201AB}.CD_ROM|x86.ActiveCfg = CD_ROM
+		{EF105F95-7060-4668-A236-9253A6E201AB}.CD_ROM|x86.Build.0 = CD_ROM
+		{EF105F95-7060-4668-A236-9253A6E201AB}.Debug|Any CPU.ActiveCfg = DVD-5
+		{EF105F95-7060-4668-A236-9253A6E201AB}.Debug|Any CPU.Build.0 = DVD-5
+		{EF105F95-7060-4668-A236-9253A6E201AB}.Debug|x86.ActiveCfg = DVD-5
+		{EF105F95-7060-4668-A236-9253A6E201AB}.Debug|x86.Build.0 = DVD-5
+		{EF105F95-7060-4668-A236-9253A6E201AB}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{EF105F95-7060-4668-A236-9253A6E201AB}.DVD-5|Any CPU.Build.0 = DVD-5
+		{EF105F95-7060-4668-A236-9253A6E201AB}.DVD-5|x86.ActiveCfg = DVD-5
+		{EF105F95-7060-4668-A236-9253A6E201AB}.DVD-5|x86.Build.0 = DVD-5
+		{EF105F95-7060-4668-A236-9253A6E201AB}.Release|Any CPU.ActiveCfg = SingleImage
+		{EF105F95-7060-4668-A236-9253A6E201AB}.Release|Any CPU.Build.0 = SingleImage
+		{EF105F95-7060-4668-A236-9253A6E201AB}.Release|x86.ActiveCfg = SingleImage
+		{EF105F95-7060-4668-A236-9253A6E201AB}.Release|x86.Build.0 = SingleImage
+		{EF105F95-7060-4668-A236-9253A6E201AB}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{EF105F95-7060-4668-A236-9253A6E201AB}.SingleImage|Any CPU.Build.0 = SingleImage
+		{EF105F95-7060-4668-A236-9253A6E201AB}.SingleImage|x86.ActiveCfg = SingleImage
+		{EF105F95-7060-4668-A236-9253A6E201AB}.SingleImage|x86.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5577A90E-78EF-4FD0-9E2B-50A0630A70C1}
+	EndGlobalSection
+EndGlobal
