@@ -350,7 +350,7 @@ namespace QcGoldArchive
                             isLowVol = true;
                         break;
                     }
-                    else if (item.Contains("FROZEN"))
+                    else if (item.Contains("FROZEN") || (item.Contains("FRESH") && results.Count <= 31) || (item.Contains("WASHED") && results.Count <= 31))
                     {
                         isFrozen = true;
                     }
@@ -388,8 +388,11 @@ namespace QcGoldArchive
                 }
 
 
-                footerData = results[results.Count - 3]; // contains AVG, OD, CNT
+                footerData = results[results.Count - 2];// contains AVG, OD, CNT
                 awData = results[results.Count - 2]; // contains AW
+
+                //footerData = results[results.Count - 3]; // contains AVG, OD, CNT
+                //awData = results[results.Count - 2]; // contains AW
             }
             else
             { // is SERVICE or SETTINGS DATA
@@ -1473,7 +1476,7 @@ namespace QcGoldArchive
             List<string> Results = new List<string>();  //list containing all the rows in the printout
             string current = String.Empty;    //represents current string being analyzed
             LM.UpdateLanguage("en");
-            string[] labels = LM.Translate(UniversalStrings.REMOVE_LABELS);
+            string[] labels = LM.Translate(UniversalStrings.REMOVE_LABELS_who6);
             LM.UpdateLanguage(currentLang);
 
             int posStart;
@@ -1515,8 +1518,8 @@ namespace QcGoldArchive
             List<string> Results = new List<string>();  //list containing all the rows in the printout
             string current = String.Empty;    //represents current string being analyzed
             LM.UpdateLanguage("en");
-            string[] labels = LM.Translate(UniversalStrings.REMOVE_LABELS);
-            string[] frozenLabels = LM.Translate(UniversalStrings.FROZEN_LABELS);
+            string[] labels = LM.Translate(UniversalStrings.REMOVE_LABELS_who6);
+            string[] frozenLabels = LM.Translate(UniversalStrings.FROZEN_LABELS_who6);
             LM.UpdateLanguage(currentLang);
 
             int count = 0;
@@ -2765,6 +2768,7 @@ namespace QcGoldArchive
 
 
                     AddTextCell(tab5, new PdfPCell(new Phrase(">= 15", datafont)), Element.ALIGN_CENTER, 1, 11, 0.6f, 0, 0, 0.6f, 5, 5, BaseColor.WHITE);
+
                     string red_arrow_path = Application.StartupPath + @"\assets\RED.png";
                     string green_arrow_path = Application.StartupPath + @"\assets\GREEN.png";
 
@@ -4783,8 +4787,8 @@ namespace QcGoldArchive
             }
             else
             {
-                devicesntxt.Location = new Point(168, 816);
-                devicesn.Location = new Point(256, 816);
+                devicesntxt.Location = new Point(168, 849);
+                devicesn.Location = new Point(256, 849);
             }
             if (appSettings[6] == "de-De" || appSettings[6] == "fr-FR")
             {
@@ -5609,6 +5613,11 @@ namespace QcGoldArchive
 
         private void CheckBox2_CheckedChanged(object sender, EventArgs e)
         {
+
+            if (checkBox2.Checked)
+            {
+                testdateField1.Value = DateTime.Now;
+            }
             if (reportData.Count != 0)
             {
                 stateOfFields(false);

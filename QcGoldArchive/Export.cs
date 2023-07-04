@@ -80,7 +80,7 @@ namespace QcGoldArchive
 
                 File.Delete(path);
                 streamWriter = new StreamWriter(path, false);//filename, true);
-                string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS;
+                string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS_WHO6;
 
                 foreach (string label in labels)
                 {
@@ -198,7 +198,7 @@ namespace QcGoldArchive
                        .Where(x => x.Split(',')[1] != "clear");
                 File.Delete(path);
                 streamWriter = new StreamWriter(path, false);//filename, true);
-                string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS;
+                string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS_WHO6;
 
                 foreach (string label in labels)
                 {
@@ -266,7 +266,7 @@ namespace QcGoldArchive
                 else if (expType == 1)
                 {
                     streamWriter = new StreamWriter(path, false);//filename, true);
-                    string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS;
+                    string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS_WHO6;
 
                     foreach (string label in labels)
                     {
@@ -474,7 +474,7 @@ namespace QcGoldArchive
 
         public bool MakeNewExcelFile(string path)
         {
-            string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS;
+            string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS_WHO6;
             bool success = false;
 
             Microsoft.Office.Interop.Excel.Application app = new Microsoft.Office.Interop.Excel.Application();
@@ -793,7 +793,7 @@ namespace QcGoldArchive
                 string oldfile_path = path.Insert(len - 4, "_old");
                 File.Move(path, oldfile_path);
                 streamWriter = new StreamWriter(path, false);//filename, true);
-                string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS;
+                string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS_WHO6;
 
                 foreach (string label in labels)
                 {
@@ -912,7 +912,7 @@ namespace QcGoldArchive
                 string oldfile_path = path.Insert(len - 4, "_IN_old");
                 File.Move(path, oldfile_path);
                 streamWriter = new StreamWriter(path, false);//filename, true);
-                string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS;
+                string[] labels = UniversalStrings.NEW_FILE_INDIAN_LABELS_WHO6;
                 foreach (string label in labels)
                 {
                     WriteToFile(label);
