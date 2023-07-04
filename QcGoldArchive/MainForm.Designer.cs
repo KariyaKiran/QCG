@@ -1435,7 +1435,7 @@
             // 
             // concbox
             // 
-            this.concbox.Location = new System.Drawing.Point(159, 555);
+            this.concbox.Location = new System.Drawing.Point(183, 554);
             this.concbox.Name = "concbox";
             this.concbox.ShortcutsEnabled = false;
             this.concbox.Size = new System.Drawing.Size(89, 20);
@@ -1444,7 +1444,7 @@
             // 
             // totmotbox
             // 
-            this.totmotbox.Location = new System.Drawing.Point(159, 585);
+            this.totmotbox.Location = new System.Drawing.Point(183, 584);
             this.totmotbox.Name = "totmotbox";
             this.totmotbox.ShortcutsEnabled = false;
             this.totmotbox.Size = new System.Drawing.Size(89, 20);
@@ -1452,7 +1452,7 @@
             // 
             // rapidProg
             // 
-            this.rapidProg.Location = new System.Drawing.Point(159, 615);
+            this.rapidProg.Location = new System.Drawing.Point(183, 614);
             this.rapidProg.Name = "rapidProg";
             this.rapidProg.ShortcutsEnabled = false;
             this.rapidProg.Size = new System.Drawing.Size(89, 20);
@@ -1460,7 +1460,7 @@
             // 
             // npmbox
             // 
-            this.npmbox.Location = new System.Drawing.Point(160, 675);
+            this.npmbox.Location = new System.Drawing.Point(184, 674);
             this.npmbox.Name = "npmbox";
             this.npmbox.ShortcutsEnabled = false;
             this.npmbox.Size = new System.Drawing.Size(89, 20);
@@ -1468,7 +1468,7 @@
             // 
             // immotbox
             // 
-            this.immotbox.Location = new System.Drawing.Point(159, 705);
+            this.immotbox.Location = new System.Drawing.Point(183, 704);
             this.immotbox.Name = "immotbox";
             this.immotbox.ShortcutsEnabled = false;
             this.immotbox.Size = new System.Drawing.Size(89, 20);
@@ -1476,7 +1476,7 @@
             // 
             // mnfbox
             // 
-            this.mnfbox.Location = new System.Drawing.Point(159, 735);
+            this.mnfbox.Location = new System.Drawing.Point(183, 734);
             this.mnfbox.Name = "mnfbox";
             this.mnfbox.ShortcutsEnabled = false;
             this.mnfbox.Size = new System.Drawing.Size(89, 20);
@@ -2208,7 +2208,7 @@
             // 
             // slowProg
             // 
-            this.slowProg.Location = new System.Drawing.Point(160, 645);
+            this.slowProg.Location = new System.Drawing.Point(184, 644);
             this.slowProg.Name = "slowProg";
             this.slowProg.ShortcutsEnabled = false;
             this.slowProg.Size = new System.Drawing.Size(89, 20);
